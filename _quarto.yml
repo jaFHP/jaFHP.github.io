@@ -2,10 +2,10 @@ project:
   type: website
     
 website:
-  site-url: https://archaeothommy.github.io/
-  repo-url: https://github.com/archaeothommy/archaeothommy.github.io/
+  site-url: https://jafhp.github.io/about.html
+  repo-url: https://github.com/jaFHP/jaFHP.github.io/
   favicon: favicon.png
-  title: "Thomas Rose"
+  title: "Jana"
   navbar:
     left:
       - text: "My research"
@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: spacelab
     css: styles.css
     toc: true
     link-external-newwindow: true

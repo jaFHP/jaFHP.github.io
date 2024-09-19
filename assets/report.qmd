@@ -1,5 +1,5 @@
 ---
-title: "Random report"
+title: "RPeport"
 author: 
   - name: Jane Doe
     orcid: 0000-0001-2345-6789
@@ -48,10 +48,7 @@ Make sure identations are correct!
 
 
 ``` {python}
-import pandas as pd
-import matplotlib.pyplot as plt
-filePath = 'https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/refs/heads/main/csv/Galapagos%20Islands.csv'
-pd.read_csv(filePath)
+
 
 ``` 
 

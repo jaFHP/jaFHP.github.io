@@ -13,7 +13,7 @@ author:
 # Instructions for the exercise
 
 1. Move the file to the top level of your repository 
-2. Update the file _quarto.yml in your repository to include the report in your webpage 
+x. Update the file _quarto.yml in your repository to include the report in your webpage 
 3. Load a dataset from https://github.com/Hezel2000/GeoCosmoChemDataAndTools/tree/main/csv
 4. Update the YAML header of this file
 5. Create a file `requirements.txt`on the top level of the repo
@@ -57,15 +57,7 @@ filePath = 'https://github.com/Hezel2000/GeoCosmoChemDataAndTools/tree/main/csv/
 
 And performance in repeated identical draws. However, this time we will draw 50 times because 10 is too few to make the normal distribution visible: 
 
-``` {r}
-#| layout-ncol: 5
-#| echo: false
 
-for (i in seq_along(1:10)) {
-  hist(rnorm(50, mean = 50, sd = 5), main = NULL)
-}
-
-```
 
 
 If you forgot how the standard deviation is calculated (and because I wanted to include a more complex formula for instructive purposes): 

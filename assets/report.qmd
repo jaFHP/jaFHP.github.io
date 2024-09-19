@@ -48,8 +48,10 @@ Make sure identations are correct!
 
 
 ``` {python}
-filePath = 'https://github.com/Hezel2000/GeoCosmoChemDataAndTools/tree/main/csv/Galapagos Island.csv'
-
+import pandas as pd
+import matplotlib.pyplot as plt
+filePath = 'https://raw.githubusercontent.com/Hezel2000/GeoCosmoChemDataAndTools/refs/heads/main/csv/Galapagos%20Islands.csv'
+pd.read_csv(filePath)
 
 ``` 
 

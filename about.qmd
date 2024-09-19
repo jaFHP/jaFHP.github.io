@@ -14,10 +14,8 @@ about:
 
 ## Tasks for this page
 
-* Update the YAML header. you can check out different layouts of the pre-formatted part at <https://quarto.org/docs/websites/website-about.html#templates>
-* Update the legal notice
-* Write a short introduction about you
-* delete this section
+* this a test
+* still testing
 
 
 :::{#template-area}
